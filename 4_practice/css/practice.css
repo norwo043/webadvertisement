@@ -1,0 +1,105 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	background-color: magenta;
+	opacity: 20;
+}
+
+.grandma {
+	width: 300px;
+	height: 600px;
+	background: url(../images/grandma.jpg) no-repeat center;
+	background-size: cover;
+	background-color: teal;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@font-face {
+	font-family: 'LeagueMono';
+	src: url(../fonts/LeagueMono.ttf);
+}
+
+@font-face {
+	font-family: 'Wind';
+	src: url(../fonts/Wind.woff2);
+}
+
+.league {
+	font-family: LeagueMono;
+	font-size: 28px;
+	font-weight: 50;
+	position: relative;
+	text-rendering: geometricPrecision;
+	animation: league infinite 2s alternate;
+	text-align: center;
+	width: 300px;
+}
+
+@keyframes league {
+	0% { font-variation-settings: "wdth" 30; }
+	100% { font-variation-settings: "wdth" 200; }
+}
+
+.wind {
+	font-family: Wind;
+	font-size: 30px;
+	position: relative;
+	text-transform: uppercase;
+	animation: wind 2s alternate infinite;
+	text-align: center;
+}
+
+@keyframes wind {
+	0% {font-variation-settings: "WIND" 0;}
+	100% {font-variation-settings: "WIND" 180;}
+}
+
+@font-face {
+	font-family: 'Decovar';
+	src: url(../fonts/DecovarAlpha.ttf)
+}
+
+.deco {
+	font-family: Decovar;
+	font-size: 50px;
+	position: relative;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
